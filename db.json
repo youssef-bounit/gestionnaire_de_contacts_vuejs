@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Alice Simple",
+      "email": "alice.s@example.com",
+      "phone": "0111222333"
+    },
+    {
+      "name": "Margaret Jack",
+      "email": "sexozamene@mailinator.com",
+      "phone": "+1 (344) 747-6805",
+      "id": "3d16"
+    }
+  ]
+}

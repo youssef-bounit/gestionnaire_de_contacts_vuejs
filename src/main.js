@@ -1,15 +1,12 @@
-import './assets/main.css'
+// import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router/index'
+import router from './router'
 import vuetify from './plugins/vuetify'
-import { loadFonts } from './plugins/webfontloader'
 
-import '@mdi/font/css/materialdesignicons.css'
-import '@tabler/icons-webfont/dist/tabler-icons.min.css';
+const app = createApp(App)
 
-
-loadFonts()
-
-createApp(App).use(router).use(vuetify).mount('#app')
+app.use(router)
+app.use(vuetify)
+app.mount('#app')
